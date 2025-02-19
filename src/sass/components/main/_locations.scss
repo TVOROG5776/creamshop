@@ -1,0 +1,253 @@
+.locations {
+  .locations-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .examples {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      @media (max-width: 1200px) {
+        & {
+          gap: 20px;
+        }
+      }
+      @media (max-width: 768px) {
+        & {
+          flex-wrap: wrap;
+        }
+      }
+      .example {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 24px;
+        box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+        background-color: rgb(255, 255, 255);
+        padding: 50px 45px;
+        @media (max-width: 1200px) {
+          & {
+            padding: 50px 30px;
+          }
+        }
+        @media (max-width: 768px) {
+          & {
+            padding: 45px 20px;
+          }
+        }
+        &__type {
+          color: rgb(255, 255, 255);
+          font-family: 'DM Sans';
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 186%;
+          border-radius: 6px;
+          background-color: rgb(240, 209, 165);
+          text-transform: uppercase;
+          padding: 2px 20px;
+          @media (max-width: 768px) {
+            & {
+              padding: 0px 20px;
+              color: rgb(255, 255, 255);
+              font-family: 'DM Sans';
+              font-size: 12px;
+              font-weight: 500;
+            }
+          }
+        }
+        .green {
+          background: rgb(194, 226, 151);
+        }
+        &__title {
+          color: rgb(0, 0, 0);
+          font-family: 'DM Sans';
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 186%;
+          margin-top: 32px;
+          @media (max-width: 1200px) {
+            & {
+              color: rgb(0, 0, 0);
+              font-family: 'DM Sans';
+              font-size: 14px;
+              font-weight: 500;
+            }
+          }
+          @media (max-width: 768px) {
+            & {
+              margin-top: 25px;
+              color: rgb(0, 0, 0);
+              font-family: 'DM Sans';
+              font-size: 12px;
+              font-weight: 500;
+            }
+          }
+        }
+        &__item {
+          color: rgb(144, 126, 130);
+          font-family: 'DM Sans';
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 183%;
+          width: 243px;
+          border-bottom: 1px solid rgb(225, 225, 225);
+          padding-bottom: 32px;
+          @media (max-width: 1200px) {
+            & {
+              width: 145px;
+              color: rgb(144, 126, 130);
+              font-family: 'DM Sans';
+              font-size: 14px;
+              font-weight: 500;
+            }
+          }
+          @media (max-width: 768px) {
+            & {
+              color: rgb(144, 126, 130);
+              font-family: 'DM Sans';
+              font-size: 12px;
+              font-weight: 500;
+              width: 180px;
+              padding-bottom: 25px;
+            }
+          }
+        }
+        &__time {
+          color: rgb(0, 0, 0);
+          font-family: 'DM Sans';
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 186%;
+          padding-top: 32px;
+          @media (max-width: 1200px) {
+            & {
+              color: rgb(0, 0, 0);
+              font-family: 'DM Sans';
+              font-size: 14px;
+              font-weight: 500;
+              padding-top: 16px;
+            }
+          }
+          @media (max-width: 768px) {
+            & {
+              color: rgb(0, 0, 0);
+              font-family: 'DM Sans';
+              font-size: 12px;
+              font-weight: 500;
+              padding-top: 25px;
+            }
+          }
+        }
+        &__clock {
+          color: rgb(255, 165, 186);
+          font-family: 'DM Sans';
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 186%;
+          @media (max-width: 1200px) {
+            & {
+              color: rgb(255, 165, 186);
+              font-family: 'DM Sans';
+              font-size: 14px;
+              font-weight: 500;
+            }
+          }
+          @media (max-width: 768px) {
+            & {
+              color: rgb(255, 165, 186);
+              font-family: 'DM Sans';
+              font-size: 12px;
+              font-weight: 500;
+            }
+          }
+        }
+        .bottom {
+          padding-bottom: 32px;
+          @media (max-width: 768px) {
+            & {
+              padding-bottom: 25px;
+            }
+          }
+        }
+        &__footer {
+          color: rgb(144, 126, 130);
+          font-family: 'DM Sans';
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 183%;
+          width: 243px;
+          padding-top: 32px;
+          border-top: 1px solid rgb(225, 225, 225);
+          @media (max-width: 1200px) {
+            & {
+              color: rgb(144, 126, 130);
+              font-family: 'DM Sans';
+              font-size: 14px;
+              font-weight: 500;
+              width: 157px;
+            }
+          }
+          @media (max-width: 768px) {
+            & {
+              color: rgb(144, 126, 130);
+              font-family: 'DM Sans';
+              font-size: 12px;
+              font-weight: 500;
+              width: 180px;
+            }
+          }
+        }
+      }
+    }
+    .locations-buttons {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding-top: 90px;
+      @media (max-width: 1200px) {
+        & {
+          padding-top: 80px;
+        }
+      }
+      @media (max-width: 768px) {
+        & {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 55px;
+          gap: 10px;
+        }
+      }
+      &__item:first-child {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 22px;
+        background-color: rgb(212, 19, 66);
+        color: rgb(255, 255, 255);
+        font-family: 'DM Sans';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        border: none;
+        padding: 12px 35px;
+      }
+      &__item:nth-child(2) {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 22px;
+        background-color: white;
+        color: red;
+        font-family: 'DM Sans';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        border: none;
+        padding: 12px 35px;
+      }
+    }
+  }
+}
+  

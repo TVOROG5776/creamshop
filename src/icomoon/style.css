@@ -1,0 +1,62 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-arrow {
+  width: 0.599609375em;
+}
+
+.svg-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+@media (max-width: 1200px) {
+  .svg-background {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.svg-background:hover {
+  cursor: pointer;
+}
+
+.icon-arrow-right {
+  fill: red;
+  width: auto;
+}
+
+@media (max-width: 1200px) {
+  .icon-arrow-right {
+    width: 9px;
+    height: 9px;
+  }
+}
+
+.icon-burger {
+  width: 20px;
+}
+
+
+.first-arrow {
+  fill: rgb(255, 255, 255);
+}
