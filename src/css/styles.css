@@ -827,7 +827,7 @@ header .header-content .svg-button__button {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .made {
-    background: url("../img/milkground@2x.png") no-repeat center/contain;
+    background: url("../img/milkground@2x.png") no-repeat center/contain, rgb(255, 245, 246);
   }
 }
 @media (min-device-pixel-ratio: 2) and (max-width: 1200px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 1200px), (min-resolution: 192dpi) and (max-width: 1200px), (min-resolution: 2dppx) and (max-width: 1200px) {
@@ -852,7 +852,7 @@ header .header-content .svg-button__button {
 }
 .made .made-content .pictures {
   position: absolute;
-  top: 115.6%;
+  top: 117.8%;
   z-index: 2;
 }
 @media (max-width: 1200px) {
@@ -1637,7 +1637,7 @@ body {
 .carousel {
   margin: 0px auto;
   padding: 0px 15px;
-  width: auto;
+  width: 100%;
 }
 @media (max-width: 1200px) {
   .carousel {
