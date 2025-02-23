@@ -385,11 +385,10 @@ header .header-content .svg-button__button {
   justify-content: center;
   position: absolute;
   left: 395px;
-  z-index: 0;
   top: -30px;
   background: rgb(255, 165, 186);
-  width: 705px;
-  height: 705px;
+  width: 670px;
+  height: 670px;
   border-radius: 50%;
 }
 @media (max-width: 1200px) {
@@ -416,34 +415,30 @@ header .header-content .svg-button__button {
     width: auto;
   }
 }
-.hero .hero-content .background-cream__item {
-  margin-top: 85px;
-}
-@media (max-width: 1200px) {
-  .hero .hero-content .background-cream__item {
-    margin-top: 55px;
-  }
-}
 @media (max-width: 768px) {
   .hero .hero-content .background-cream__item {
     width: 171px;
     height: 410px;
+    margin-top: auto;
   }
 }
 .hero .hero-content .background-cream__item .cream-img {
-  width: 300px;
-  height: 700px;
+  width: 306px;
+  height: 705px;
+  margin-top: 115px;
 }
 @media (max-width: 1200px) {
   .hero .hero-content .background-cream__item .cream-img {
     width: 175px;
     height: 410px;
+    margin-top: 55px;
   }
 }
 @media (max-width: 768px) {
   .hero .hero-content .background-cream__item .cream-img {
     width: 171px;
     height: 410px;
+    margin-top: auto;
   }
 }
 .hero .hero-content .numbers {
@@ -852,12 +847,32 @@ header .header-content .svg-button__button {
 }
 .made .made-content .pictures {
   position: absolute;
-  top: 117.8%;
+  top: 115.8%;
   z-index: 2;
+  width: 1280px;
 }
 @media (max-width: 1200px) {
   .made .made-content .pictures {
+    top: 115.7%;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .made .made-content .pictures {
+    top: 116.5%;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .made .made-content .pictures {
+    top: 105.1%;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .made .made-content .pictures {
     top: 106.6%;
+    width: auto;
   }
 }
 .made .made-content__podtitle {
