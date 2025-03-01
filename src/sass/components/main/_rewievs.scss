@@ -58,13 +58,14 @@
             align-items: center;
             background-color: rgb(250, 250, 250);
             padding: 30px 50px;
+            z-index: 0;
             .desktop-version {
                 display: flex;
                 position: relative;
                 flex-direction: column;
                 align-items: center;
                 background-color: rgb(250, 250, 250);
-            padding: 30px 50px;
+                padding: 30px 50px;
                 @media (max-width: 1200px) {
                     & {
                         display: none;
