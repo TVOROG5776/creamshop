@@ -199,7 +199,6 @@ header .header-content .svg-button__button {
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
-  letter-spacing: 6%;
   text-transform: uppercase;
 }
 @media (max-width: 1200px) {
@@ -336,7 +335,6 @@ header .header-content .svg-button__button {
   font-weight: 400;
   font-size: 58px;
   text-transform: uppercase;
-  letter-spacing: 4%;
 }
 @media (max-width: 1200px) {
   .hero .hero-content .description__title--span {
@@ -465,7 +463,6 @@ header .header-content .svg-button__button {
   font-size: 46px;
   font-weight: 400;
   line-height: 53px;
-  letter-spacing: 4%;
   text-transform: uppercase;
   z-index: 2;
 }
@@ -634,7 +631,6 @@ header .header-content .svg-button__button {
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
-  letter-spacing: 4%;
   text-transform: uppercase;
 }
 @media (max-width: 1200px) {
@@ -663,7 +659,6 @@ header .header-content .svg-button__button {
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
-  letter-spacing: 6%;
   text-transform: uppercase;
   margin-top: 15px;
 }
@@ -750,7 +745,6 @@ header .header-content .svg-button__button {
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
-  letter-spacing: 4%;
   text-transform: uppercase;
   text-align: center;
 }
@@ -770,7 +764,6 @@ header .header-content .svg-button__button {
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
-  letter-spacing: 4%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -790,7 +783,6 @@ header .header-content .svg-button__button {
   font-size: 16px;
   font-weight: 700;
   line-height: 176%;
-  letter-spacing: 4%;
   text-align: center;
   width: 240px;
 }
@@ -882,7 +874,6 @@ header .header-content .svg-button__button {
   font-size: 30px;
   font-weight: 400;
   line-height: 34px;
-  letter-spacing: 4%;
   text-transform: uppercase;
 }
 @media (max-width: 1200px) {
@@ -909,7 +900,6 @@ header .header-content .svg-button__button {
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
-  letter-spacing: 6%;
   text-transform: uppercase;
 }
 @media (max-width: 1200px) {
@@ -985,7 +975,6 @@ header .header-content .svg-button__button {
   font-size: 16px;
   font-weight: 500;
   line-height: 176%;
-  letter-spacing: 4%;
   width: 463px;
 }
 @media (max-width: 1200px) {
@@ -1012,7 +1001,6 @@ header .header-content .svg-button__button {
   font-size: 14px;
   font-weight: 500;
   line-height: 194%;
-  letter-spacing: 4%;
   width: 463px;
 }
 @media (max-width: 1200px) {
@@ -1103,7 +1091,6 @@ header .header-content .svg-button__button {
   font-size: 58px;
   font-weight: 400;
   line-height: 66px;
-  letter-spacing: 4%;
   text-transform: uppercase;
 }
 @media (max-width: 1200px) {
@@ -1134,7 +1121,6 @@ header .header-content .svg-button__button {
   font-size: 16px;
   font-weight: 700;
   line-height: 176%;
-  letter-spacing: 2%;
   width: 330px;
 }
 @media (max-width: 1200px) {
@@ -1200,7 +1186,6 @@ header .header-content .svg-button__button {
   font-size: 20px;
   font-weight: 500;
   line-height: 186%;
-  letter-spacing: 0%;
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
@@ -1287,7 +1272,6 @@ header .header-content .svg-button__button {
   font-size: 16px;
   font-weight: 500;
   line-height: 186%;
-  letter-spacing: 4%;
   z-index: 2;
   border-bottom: 1px solid rgb(225, 225, 225);
   text-align: center;
@@ -1308,7 +1292,6 @@ header .header-content .svg-button__button {
     font-size: 12px;
     font-weight: 500;
     line-height: 255%;
-    letter-spacing: 0%;
     text-align: center;
     width: 188px;
   }
